@@ -50,13 +50,24 @@ const signupSchema = new mongoose.Schema({
     default:""
   },
 
-  clerkName: {
-    type: Array,
+  clerkName1: {
+    type: String,
     default:""
   },
 
-  clerkPhone: {
-    type: Array,
+  clerkName2: {
+    type: String,
+    default:""
+  },
+
+
+  clerkPhone1: {
+    type: String,
+    default:""
+  },
+
+  clerkPhone2:{
+    type: String,
     default:""
   },
 
